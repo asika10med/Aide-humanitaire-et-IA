@@ -1,0 +1,177 @@
+Titre du projet
+
+Optimisation de l’Aide Humanitaire en Zones de Crise par des Méthodes d’Intelligence Artificielle
+
+Résumé
+
+Ce projet explore comment les méthodes d’intelligence artificielle peuvent améliorer la rapidité, la précision et l’équité de l’intervention humanitaire dans les zones de crise. L’objectif est de développer un système capable d’analyser des données multisources (images satellites, données de terrain, rapports humanitaires, réseaux sociaux) afin d'aider les organisations à prioriser les zones à haut risque, optimiser la distribution des ressources, et anticiper les besoins des populations affectées.
+
+Contexte
+
+Les zones de crise:  conflits armés, catastrophes naturelles, épidémies  posent d’immenses défis aux organisations humanitaires : accès limité, manque d’informations fiables, besoins changeants, et ressources insuffisantes.
+Ces problèmes sont fréquents, notamment en Afrique centrale (RDC, RCA, Soudan du Sud), au Moyen-Orient ou en Asie du Sud.
+
+Problème
+
+Les équipes humanitaires prennent souvent des décisions critiques avec des données incomplètes ou tardives. Cela peut entraîner :
+
+une mauvaise priorisation des zones les plus touchées,
+
+une distribution inefficace de l’aide,
+
+un retard dans la réponse d’urgence,
+
+des risques accrus pour les équipes sur le terrain.
+
+
+Motivation personnelle
+
+Mon intérêt pour ce sujet vient du rôle vital que joue la technologie dans le domaine humanitaire, ainsi que de l’impact direct que peut avoir l’IA dans la réduction des souffrances humaines. Pour ceux qui travaillent sur le terrain, disposer d’outils intelligents pour estimer les besoins, anticiper les risques et guider l’action humanitaire devient essentiel.
+
+Importance du sujet
+
+Les crises augmentent en fréquence et en complexité.
+
+L’IA permet d'extraire des informations utiles même dans des environnements où les données sont chaotiques.
+
+Une meilleure allocation des ressources peut sauver des milliers de vies.
+
+
+
+Données et techniques d'IA
+
+Sources de données
+
+Le projet repose sur plusieurs types de données :
+
+1. Images satellitaires : détection des destructions, inondations, mouvements de population.
+
+
+2. Données météorologiques et sismiques : pour les catastrophes naturelles.
+
+
+3. Rapports humanitaires (ONU, OCHA, Médecins Sans Frontières…).
+
+
+4. Réseaux sociaux : signaux faibles (témoignages, vidéos, alertes locales).
+
+
+5. Enquêtes rapides sur le terrain via smartphones ou drones.
+
+
+
+La qualité de ces données est variable, ce qui implique du prétraitement et de la normalisation.
+
+
+Techniques d’IA utilisées
+
+Classification supervisée pour identifier les zones à haute vulnérabilité.
+
+Apprentissage non supervisé (clustering) pour regrouper les régions selon les besoins.
+
+Détection d’objets (CNN) sur images satellites pour repérer des constructions endommagées ou des déplacés.
+
+Analyse de texte (NLP) pour résumer les rapports humanitaires et extraire les priorités urgentes.
+
+Modèles prédictifs pour anticiper :
+
+la propagation d’une crise,
+
+les déplacements de population,
+
+la demande en médicaments ou vivres.
+
+
+Comment est-elle utilisée ?
+
+La solution est pensée pour être utilisée dans différents environnements humanitaires :
+
+1. Par qui ?
+
+Organisations humanitaires : OCHA, CICR, MSF, UNICEF.
+
+Gouvernements lors de catastrophes.
+
+ONG locales et équipes de terrain.
+
+
+2. Dans quel contexte ?
+
+Évaluation rapide après une catastrophe.
+
+Suivi en temps réel d’un conflit.
+
+Planification logistique des distributions.
+
+Protection des civils (anticipation des zones dangereuses).
+
+
+L’outil peut prendre la forme :
+
+d’un tableau de bord interactif,
+
+d’une carte dynamique des besoins,
+
+d’un système d’alerte précoce basé sur les données entrantes.
+
+
+Défis
+
+Ce projet ne résout pas tous les problèmes humanitaires :
+
+1. Accès aux données : zones inaccessibles, données parfois censurées.
+
+
+2. Éthique de l’IA : respect de la vie privée, risque de mésusage.
+
+
+3. Qualité variable des données (bruit, biais, manque de régularité).
+
+
+4. Limitations techniques : l’IA ne peut pas remplacer le jugement humain.
+
+
+5. Contexte politique : aide entravée par des groupes armés.
+
+
+
+Il est crucial de combiner IA + expertise humaine.
+
+
+Et ensuite ?
+
+Le projet pourrait évoluer :
+
+Intégration de modèles de vision plus avancés (transformers visuels).
+
+Utilisation de systèmes multimodaux combinant texte + images + audio.
+
+Déploiement sur des appareils low-cost pour les zones sans connexion internet.
+
+Création d’une plateforme open source pour la communauté humanitaire mondiale.
+
+Incorporation de modèles prédictifs pour prévenir les crises avant qu’elles n’explosent (sécurité alimentaire, déplacements, épidémies).
+
+
+Remerciements
+
+Ce projet s’inspire :
+
+des ressources open source de UN Global Pulse, Humanitarian Data Exchange (HDX), Deltares,
+
+des cours d’introduction à l’intelligence artificielle tels que "Building AI",
+
+des initiatives d’IA humanitaire de la Croix-Rouge, de Google AI for Social Good,
+
+ainsi que de plusieurs référentiels GitHub dédiés à l'analyse d’images satellitaires et à la prédiction de crises.
+
+
+Un fichier README pourra être ajouté sur GitHub pour détailler :
+
+les objectifs du projet,
+
+les sources de données utilisées,
+
+les références open source,
+
+les auteurs et inspirations
